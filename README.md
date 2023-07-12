@@ -1,51 +1,22 @@
-# Mango toon
+# 💫💫 Mango toon 💫💫
 
-#### 1. 프로젝트명
 
-    - Mango toon : 웹소설 사이트
+#### 1. 프로젝트 정보
+    - 개발 기간 : 23.3.12 ~ 23.4.4 (23일)
+    - 사용 스킬 : html, css, vanilaJS
+    - 사이트 링크 : https://mangotoon.netlify.app/
     
 #### 2. 프로젝트 소개
-
-    - 웹소설/웹툰 전자책 사이트 메인화면입니다.
-
-#### 3. 구현 플랫폼 
-
-    1) OS
-        - windows에서 동작 
-
-    2) Front-end 기술 및 라이브러리  
-        - HTML5, CSS3, JavaScript ES6 으로 구현 
-
-    3) Code Editor
-        - Visual Studio Code
-
-#### 4. 디렉토리 설정
-
-    1)root
-        - bookData.json
-        - eventData.json
-        - main.html
-        
-    2)public
-        - main.css
-        - main.js
-        - mango.ico
-        - theme.css
-
-    3)modules
-        - bookDataFetch.js
-        - eventDataFetch.js
-        - eventSection.js
-        - eventSlide.js
-        - productCard.js
-        - productList.js
-        
-    4)utils
-      - dom.js
+    웹툰/웹소설 사이트 mango toon의 메인페이지 이며 Vanila JS로 제작된 첫 개인 프로젝트입니다.
+    최상·하단의 이벤트 영역과 그 사이에 카테고리를 배치하였으며 컴포넌트 재사용성을 높이기 위해 총 3개의 컴포넌트만으로 제작을 하였습니다.
 
 
-#### 6. 메인 화면
+#### 3. 주요 기능
+    - 이벤트 슬라이드
+      라이브러리 없이 직접 구현한 자동 슬라이드이며, 버튼으로 좌우 이동이 가능.
+      자동과 버튼 이동의 중복 방지를 위해 마우스 on/off 이벤트 부여.
 
-![망고북](https://user-images.githubusercontent.com/82524095/229751919-9de989b8-87b3-498a-84a7-a153beac6465.jpg)
 
+#### 4. 화면
+![ezgif com-gif-maker](https://github.com/phs-developer/ebook-project/assets/82524095/2741e2fe-d285-491d-8057-43fe70f39f4a)
 
